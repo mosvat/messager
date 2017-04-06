@@ -1,0 +1,17 @@
+
+
+
+var request = new XMLHttpRequest();
+request.open('GET', 'https://developer.mozilla.org/ru/docs/Web/API/XMLHttpRequest/send', true);	
+request.onload = function() {
+if (request.status >= 200 && request.status < 400) {
+	    var response = request.responseText;
+		document.write(response);
+	  } 
+	};
+request.onerror = function() {
+};
+request.send();
+
+
+&#160;&#10;&#160;&#10;

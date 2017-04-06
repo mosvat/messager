@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link href="styles/main.css" rel="stylesheet">
+<link href="styles/content.css" rel="stylesheet">
+<script src="scripts/main.js"></script>
+<script src="scripts/cookies.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header" class="center30"></div>	
+	<div id="content" class="center30">
+		<div class="leftMenu">
+			<p id="online">Online: 0</p>
+			<div class="users" id="block1">
+				<span onclick="selectLeft(this);" id="id1" name="id1" line="on" >Main</span>
+				<span onclick="selectLeft(this);" id="id2" name="id2"          >Petrovich</span>
+				<span onclick="selectLeft(this);" id="id3" name="id3" line="on" >Jesus</span>
+				<span onclick="selectLeft(this);" id="id4" name="id4" line="you">Grigoriy</span>
+				<span onclick="selectLeft(this);" id="id5" name="id5"           >Masleena</span>
+				
+				<span onclick="selectLeft(this);" id="id6" name="id6"           >CUSTOM1</span>
+				<span onclick="selectLeft(this);" id="id7" name="id7"           >CUSTOM2</span>
+				<span onclick="selectLeft(this);">CUSTOM3</span>
+				<span onclick="selectLeft(this);">CUSTOM4</span>
+			</div>
+		</div>
+		<div class="rightMenu">
+			<div class="sel" id="block2">
+				<div onclick="select(this);" id="Aid1" name="id1" selected="true">Main</div>
+			</div>
+			<div class="chat" id="block3">
+				<div id="Bid1" selected="true"></div>
+			</div>
+			
+			<div class="input">
+				<textarea id="text1"><b>124</b></textarea>
+				<button onclick="write1();">PRESS</button>
+				<button onclick="giveMess()">SEND</button>
+				<button onclick="sayMess()">Say</button>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+  
+</body>
+
+</html>

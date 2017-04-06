@@ -1,0 +1,123 @@
+﻿#top_header {
+	position: relative;
+	height: 63px;
+	width: 100%;
+	background-color: #eceef4;
+}
+
+
+#buttonMenu1 {
+	position: absolute;
+	margin-top: 16px;
+	margin-left: 420px;
+}
+
+
+#buttonMenu1 div {
+	position: relative;
+	float: left;
+	text-align: center;
+	font-family: OpenSansBold;
+	font-size: 12px;
+	height: 32px;
+	width: 98px;
+	margin-right: 6px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	color: #6d6e71;
+	background-repeat: no-repeat;
+	background-position: 8px 7px;
+ 
+}
+
+#buttonMenu1 p {
+	position: relative;
+	font-style: bold;
+	left: 7px;
+	top: -7px;
+}
+
+
+#buttonMenu1 div:hover {
+	background-color: #c8eaf8;
+}
+
+
+#buttonMenu2 {
+	position: absolute;
+	height: 100%;
+	right: 0px;
+	margin-right: 420px;
+}
+
+#buttonMenu2 div:first-child {
+	border-left: 1px solid #dee0e6;
+}
+
+#buttonMenu2 div {
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 64px;
+	border-right: 1px solid #dee0e6;
+	background-color: #eceef4;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#buttonMenu2  div:hover {
+	background-color: #c8eaf8;
+}
+
+#menuback {
+	position: absolute;
+	bottom: 0px;
+	height: 86px;
+	width: 100%;
+	border-top: 1px solid #eceef4;
+}
+
+#logo {
+	position: relative;
+	left: 403px;
+	top: 61px;
+	height: 93px;
+	width: 403px;
+	background-image: url('../images/logo.png');
+	text-align: center;
+	color: #3687c4; /* Цвет текста */ 
+    font-size: 30pt; /* Размер шрифта */ 
+}
+
+.menuback {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 86px;
+	width: 100%;
+	border-top: 1px solid #edeef3;
+	text-align: center;
+	color: #3687c4; /* Цвет текста */ 
+ 
+}
+
+.menuback div {
+	position: relative;
+	font-family: OpenSansBold;
+	font-size: 10pt;
+	text-align: center;
+	padding: 21px;
+	padding-top: 35px;
+	padding-bottom: 0px;
+	float: left;
+	height: 100%;
+	width: auto;
+	border-left: 1px solid #dee0e6;
+	color: #6d6e71;
+}
+
+.menuback div:hover {
+	background-color: #c8eaf8;
+}
+
+
